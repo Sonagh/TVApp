@@ -1,0 +1,40 @@
+//TODO: will be better to have .svg icons and convert them into fonts
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--white);
+}
+
+.icon-genres {
+  mask: url('@/assets/icons/genres.png') no-repeat center / contain;
+  -webkit-mask: url('@/assets/icons/genres.png') no-repeat center / contain;
+}
+.icon-home {
+  mask: url('@/assets/icons/home.png') no-repeat center / contain;
+  -webkit-mask: url('@/assets/icons/home.png') no-repeat center / contain;
+}
+.icon-movies {
+  mask: url('@/assets/icons/movies.png') no-repeat center / contain;
+  -webkit-mask: url('@/assets/icons/movies.png') no-repeat center / contain;
+}
+.icon-search {
+  mask: url('@/assets/icons/search.png') no-repeat center / contain;
+  -webkit-mask: url('@/assets/icons/search.png') no-repeat center / contain;
+}
+.icon-tv-shows {
+  mask: url('@/assets/icons/tv-shows.png') no-repeat center / contain;
+  -webkit-mask: url('@/assets/icons/tv-shows.png') no-repeat center / contain;
+}
+.icon-watch {
+  mask: url('@/assets/icons/watch.png') no-repeat center / contain;
+  -webkit-mask: url('@/assets/icons/watch.png') no-repeat center / contain;
+}
+
+.icon-play {
+  mask: url('@/assets/icons/play.svg') no-repeat center / contain;
+  -webkit-mask: url('@/assets/icons/play.svg') no-repeat center / contain;
+}
+.icon-pause {
+
+}

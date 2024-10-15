@@ -1,0 +1,22 @@
+.section {
+  &-trending-now {
+    margin-top: -254px;
+  }
+
+  &-title {
+    margin-bottom: var(--gap-md);
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.swiper {
+  &-slide {
+    cursor: pointer;
+  }
+
+  img {
+    height: 240px;
+    object-fit: cover;
+  }
+}

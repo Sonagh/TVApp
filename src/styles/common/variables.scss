@@ -1,0 +1,20 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --paper-bg: var(--black);
+
+  --nav-width-closed: 80px;
+  --nav-item-bg: #3b486d;
+
+  --gap: 8px;
+  --gap-md: 16px;
+
+  --radius: 8px;
+
+  --font-size-base: 18px;
+  --font-weight-base: var(--font-weight-normal);
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+}

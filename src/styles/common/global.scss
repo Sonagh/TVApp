@@ -1,0 +1,34 @@
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-weight: var(--font-weight-base);
+  font-size: var(--font-size-base);
+  color: var(--white);
+  background-color: var(--paper-bg);
+}
+
+.app {
+  //display: flex;
+}
+
+main {
+  margin-left: var(--nav-width-closed);
+}
+
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2vw;
+}
